@@ -1,0 +1,420 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Broker__c",
+                "referenceId": "Broker__cRef1"
+            },
+            "Email__c": "caroline@dreamhouse.demo",
+            "Mobile_Phone__c": "617-244-3672",
+            "Name": "Caroline Kingsley",
+            "Phone__c": "617-244-3672",
+            "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/caroline_kingsley.jpg",
+            "Title__c": "Senior Broker",
+            "Properties__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Property__c",
+                            "referenceId": "Property__cRef1"
+                        },
+                        "Address__c": "121 Harborwalk Drive",
+                        "Assessed_Value__c": 306000,
+                        "Baths__c": 3,
+                        "Beds__c": 3,
+                        "City__c": "Boston",
+                        "Date_Listed__c": "2017-11-10",
+                        "Description__c": "Anim iPhone eiusmod non normcore, ugh officia. Blog ullamco stumptown, microdosing put a bird on it nihil farm-to-table pour-over squid chillwave seitan activated charcoal. Offal nesciunt lyft odio banjo. Pabst assumenda biodiesel, iPhone ethical veniam paleo in kale chips art party vaporware butcher.",
+                        "Location__Latitude__s": 42.35695,
+                        "Location__Longitude__s": -71.049327,
+                        "Name": "121 Harborwalk Drive",
+                        "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house09.jpg",
+                        "Price__c": 450000,
+                        "State__c": "MA",
+                        "Status__c": "Available",
+                        "Tags__c": "Modern",
+                        "Thumbnail__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house09sq.jpg",
+                        "Title__c": "Seaport District Retreat",
+                        "Zip__c": "02420"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Property__c",
+                            "referenceId": "Property__cRef2"
+                        },
+                        "Address__c": "95 Gloucester St",
+                        "Assessed_Value__c": 621000,
+                        "Baths__c": 3,
+                        "Beds__c": 3,
+                        "City__c": "Boston",
+                        "Date_Listed__c": "2017-11-13",
+                        "Description__c": "Aesthetic neutra raclette retro tofu, laborum hexagon YOLO 3 wolf moon banh mi man braid slow-carb single-origin coffee kale chips. Mustache XOXO authentic 90's keffiyeh, jianbing kinfolk chillwave duis small batch prism.",
+                        "Location__Latitude__s": 42.349693,
+                        "Location__Longitude__s": -71.084407,
+                        "Name": "95 Gloucester St",
+                        "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house11.jpg",
+                        "Price__c": 690000,
+                        "State__c": "MA",
+                        "Status__c": "Available",
+                        "Tags__c": "Contemporary",
+                        "Thumbnail__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house11sq.jpg",
+                        "Title__c": "Architectural Details",
+                        "Zip__c": "02420"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Property__c",
+                            "referenceId": "Property__cRef3"
+                        },
+                        "Address__c": "18 Henry St",
+                        "Assessed_Value__c": 663000,
+                        "Baths__c": 3,
+                        "Beds__c": 4,
+                        "City__c": "Cambridge",
+                        "Date_Listed__c": "2017-12-07",
+                        "Description__c": "Bacon ipsum dolor amet ribeye meatball ham hock swine sausage frankfurter tail cow ball tip pork chop leberkas brisket turkey beef. Landjaeger boudin beef ribs leberkas. Prosciutto beef ribs sirloin, capicola short ribs frankfurter bacon. Picanha filet mignon boudin, bacon jerky meatball turkey.",
+                        "Location__Latitude__s": 42.35663,
+                        "Location__Longitude__s": -71.11095,
+                        "Name": "18 Henry St",
+                        "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house01.jpg",
+                        "Price__c": 975000,
+                        "State__c": "MA",
+                        "Status__c": "Available",
+                        "Tags__c": "Colonial",
+                        "Thumbnail__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house01sq.jpg",
+                        "Title__c": "Stunning Colonial",
+                        "Zip__c": "01742"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Broker__c",
+                "referenceId": "Broker__cRef2"
+            },
+            "Email__c": "michael@dreamhouse.demo",
+            "Mobile_Phone__c": "617-244-3672",
+            "Name": "Michael Jones",
+            "Phone__c": "617-244-3672",
+            "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/michael_jones.jpg",
+            "Title__c": "Senior Broker",
+            "Properties__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Property__c",
+                            "referenceId": "Property__cRef4"
+                        },
+                        "Address__c": "503 Park Drive",
+                        "Assessed_Value__c": 481000,
+                        "Baths__c": 2,
+                        "Beds__c": 2,
+                        "City__c": "Boston",
+                        "Date_Listed__c": "2017-11-30",
+                        "Description__c": "Cray kogi small batch edison bulb. Ugh you probably haven't heard of them cold-pressed art party. Nostrud you probably haven't heard of them waistcoat poke cardigan.",
+                        "Location__Latitude__s": 42.3474,
+                        "Location__Longitude__s": -71.105475,
+                        "Name": "503 Park Drive",
+                        "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house08.jpg",
+                        "Price__c": 650000,
+                        "State__c": "MA",
+                        "Status__c": "Available",
+                        "Tags__c": "Modern",
+                        "Thumbnail__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house08sq.jpg",
+                        "Title__c": "City Living",
+                        "Zip__c": "02420"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Property__c",
+                            "referenceId": "Property__cRef5"
+                        },
+                        "Address__c": "145 Commonwealth Ave",
+                        "Assessed_Value__c": 684450,
+                        "Baths__c": 3,
+                        "Beds__c": 4,
+                        "City__c": "Boston",
+                        "Date_Listed__c": "2017-12-11",
+                        "Description__c": "Tunguska event two ghostly white figures in coveralls and helmets are soflty dancing vanquish the impossible kindling the energy hidden in matter brain is the seed of intelligence. A very small stage in a vast cosmic arena rich in mystery hearts of the stars a mote of dust suspended in a sunbeam.",
+                        "Location__Latitude__s": 42.352466,
+                        "Location__Longitude__s": -71.075311,
+                        "Name": "145 Commonwealth Ave",
+                        "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house12.jpg",
+                        "Price__c": 845000,
+                        "State__c": "MA",
+                        "Status__c": "Available",
+                        "Tags__c": "Victorian",
+                        "Thumbnail__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house12sq.jpg",
+                        "Title__c": "Contemporary Luxury",
+                        "Zip__c": "02420"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Property__c",
+                            "referenceId": "Property__cRef6"
+                        },
+                        "Address__c": "24 Pearl St",
+                        "Assessed_Value__c": 780000,
+                        "Baths__c": 4,
+                        "Beds__c": 5,
+                        "City__c": "Cambridge",
+                        "Date_Listed__c": "2017-12-14",
+                        "Description__c": "Carouser Blimey main sheet lad bounty brig piracy aft sloop log. Run a rig furl Nelsons folly measured fer yer chains ho chandler hulk prow mutiny wench. Bilge water wherry lanyard piracy port rum cackle fruit topgallant trysail bilge.",
+                        "Location__Latitude__s": 42.359103,
+                        "Location__Longitude__s": -71.10869,
+                        "Name": "24 Pearl St",
+                        "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house02.jpg",
+                        "Price__c": 1200000,
+                        "State__c": "MA",
+                        "Status__c": "Available",
+                        "Tags__c": "Victorian",
+                        "Thumbnail__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house02sq.jpg",
+                        "Title__c": "Ultimate Sophistication",
+                        "Zip__c": "02420"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Broker__c",
+                "referenceId": "Broker__cRef3"
+            },
+            "Email__c": "jonathan@dreamhouse.demo",
+            "Mobile_Phone__c": "617-244-3672",
+            "Name": "Jonathan Bradley",
+            "Phone__c": "617-244-3672",
+            "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/jonathan_bradley.jpg",
+            "Title__c": "Senior Broker",
+            "Properties__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Property__c",
+                            "referenceId": "Property__cRef7"
+                        },
+                        "Address__c": "61 West Cedar St",
+                        "Assessed_Value__c": 734250,
+                        "Baths__c": 4,
+                        "Beds__c": 5,
+                        "City__c": "Boston",
+                        "Date_Listed__c": "2017-11-20",
+                        "Description__c": "Pulling teeth this proposal is a win-win situation which will cause a stellar paradigm shift, and produce a multi-fold increase in deliverables for turd polishing, and first-order optimal strategies at the end of the day UI great plan! let me diarize this, and we can synchronise ourselves at a later timepoint. When does this sunset? future-proof.",
+                        "Location__Latitude__s": 42.359986,
+                        "Location__Longitude__s": -71.070061,
+                        "Name": "61 West Cedar St",
+                        "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house03.jpg",
+                        "Price__c": 825000,
+                        "State__c": "MA",
+                        "Status__c": "Available",
+                        "Tags__c": "Modern",
+                        "Thumbnail__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house03sq.jpg",
+                        "Title__c": "Modern City Living",
+                        "Zip__c": "02420"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Broker__c",
+                "referenceId": "Broker__cRef4"
+            },
+            "Email__c": "jen@dreamhouse.demo",
+            "Mobile_Phone__c": "617-244-3672",
+            "Name": "Jennifer Wu",
+            "Phone__c": "617-244-3672",
+            "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/jennifer_wu.jpg",
+            "Title__c": "Senior Broker",
+            "Properties__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Property__c",
+                            "referenceId": "Property__cRef8"
+                        },
+                        "Address__c": "32 Prince st",
+                        "Assessed_Value__c": 641700,
+                        "Baths__c": 4,
+                        "Beds__c": 5,
+                        "City__c": "Cambridge",
+                        "Date_Listed__c": "2017-11-21",
+                        "Description__c": "Distillery meditation before they sold out umami. Typewriter craft beer actually, raw denim gluten-free roof party before they sold out quinoa bitters dreamcatcher tousled ennui vice small batch sartorial.",
+                        "Location__Latitude__s": 42.360642,
+                        "Location__Longitude__s": -71.110448,
+                        "Name": "32 Prince st",
+                        "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house04.jpg",
+                        "Price__c": 930000,
+                        "State__c": "MA",
+                        "Status__c": "Available",
+                        "Tags__c": "Contemporary",
+                        "Thumbnail__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house04sq.jpg",
+                        "Title__c": "Live in the Trees",
+                        "Zip__c": "02420"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Broker__c",
+                "referenceId": "Broker__cRef5"
+            },
+            "Email__c": "olivia@dreamhouse.demo",
+            "Mobile_Phone__c": "617-244-3672",
+            "Name": "Olivia Green",
+            "Phone__c": "617-244-3672",
+            "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/olivia_green.jpg",
+            "Title__c": "Senior Broker",
+            "Properties__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Property__c",
+                            "referenceId": "Property__cRef9"
+                        },
+                        "Address__c": "211 Charles Street",
+                        "Assessed_Value__c": 603500,
+                        "Baths__c": 2,
+                        "Beds__c": 3,
+                        "City__c": "Boston",
+                        "Date_Listed__c": "2017-12-15",
+                        "Description__c": "Green juice 8-bit scenester cupidatat venmo, ramps eu pickled ea cornhole. Odio veniam trust fund, marfa normcore mlkshk kitsch anim culpa distillery vexillologist pinterest consequat. Microdosing commodo stumptown, tote bag pour-over normcore kickstarter.",
+                        "Location__Latitude__s": 42.368168,
+                        "Location__Longitude__s": -71.084454,
+                        "Name": "211 Charles Street",
+                        "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house05.jpg",
+                        "Price__c": 850000,
+                        "State__c": "MA",
+                        "Status__c": "Available",
+                        "Tags__c": "Modern",
+                        "Thumbnail__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house05sq.jpg",
+                        "Title__c": "Waterfront in the City",
+                        "Zip__c": "02420"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Broker__c",
+                "referenceId": "Broker__cRef6"
+            },
+            "Email__c": "miriam@dreamhouse.demo",
+            "Mobile_Phone__c": "617-244-3672",
+            "Name": "Miriam Aupont",
+            "Phone__c": "617-244-3672",
+            "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/miriam_aupont.jpg",
+            "Title__c": "Senior Broker",
+            "Properties__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Property__c",
+                            "referenceId": "Property__cRef10"
+                        },
+                        "Address__c": "448 Hanover St",
+                        "Assessed_Value__c": 594500,
+                        "Baths__c": 2,
+                        "Beds__c": 4,
+                        "City__c": "Boston",
+                        "Date_Listed__c": "2017-12-05",
+                        "Description__c": "Blimey Admiral of the Black Jolly Roger pirate Buccaneer line ballast spirits chantey topmast. Plate Fleet heave down booty Chain Shot nipper spike cutlass furl pinnace bounty. Gabion ahoy piracy coffer killick schooner main sheet holystone careen barque.",
+                        "Location__Latitude__s": 42.366855,
+                        "Location__Longitude__s": -71.052617,
+                        "Name": "448 Hanover St",
+                        "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house06.jpg",
+                        "Price__c": 725000,
+                        "State__c": "MA",
+                        "Status__c": "Available",
+                        "Tags__c": "Colonial",
+                        "Thumbnail__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house06sq.jpg",
+                        "Title__c": "Quiet Retreat",
+                        "Zip__c": "02420"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Broker__c",
+                "referenceId": "Broker__cRef7"
+            },
+            "Email__c": "michelle@dreamhouse.demo",
+            "Mobile_Phone__c": "617-244-3672",
+            "Name": "Michelle Lambert",
+            "Phone__c": "617-244-3672",
+            "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/michelle_lambert.jpg",
+            "Title__c": "Senior Broker",
+            "Properties__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Property__c",
+                            "referenceId": "Property__cRef11"
+                        },
+                        "Address__c": "127 Endicott St",
+                        "Assessed_Value__c": 405000,
+                        "Baths__c": 1,
+                        "Beds__c": 3,
+                        "City__c": "Boston",
+                        "Date_Listed__c": "2017-11-03",
+                        "Description__c": "Ad placeat sartorial, qui celiac ramps fap lumbersexual cray truffaut meh small batch godard. Single-origin coffee dolore gastropub pickled blue bottle, master cleanse migas cupidatat.",
+                        "Location__Latitude__s": 42.365003,
+                        "Location__Longitude__s": -71.057352,
+                        "Name": "127 Endicott St",
+                        "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house07.jpg",
+                        "Price__c": 450000,
+                        "State__c": "MA",
+                        "Status__c": "Available",
+                        "Tags__c": "Victorian",
+                        "Thumbnail__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house07sq.jpg",
+                        "Title__c": "City Living",
+                        "Zip__c": "02420"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Broker__c",
+                "referenceId": "Broker__cRef8"
+            },
+            "Email__c": "victor@dreamhouse.demo",
+            "Mobile_Phone__c": "617-244-3672",
+            "Name": "Victor Ochoa",
+            "Phone__c": "617-244-3672",
+            "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/victor_ochoa.jpg",
+            "Title__c": "Senior Broker",
+            "Properties__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Property__c",
+                            "referenceId": "Property__cRef12"
+                        },
+                        "Address__c": "48 Brattle St",
+                        "Assessed_Value__c": 324000,
+                        "Baths__c": 4,
+                        "Beds__c": 5,
+                        "City__c": "Cambridge",
+                        "Date_Listed__c": "2017-12-01",
+                        "Description__c": "Can you ballpark the cost per unit for me market-facing. Going forward put a record on and see who dances, yet powerpoint Bunny. Moving the goalposts paddle on both sides, or future-proof, yet move the needle Q1 strategic fit, for usabiltiy.",
+                        "Location__Latitude__s": 42.374117,
+                        "Location__Longitude__s": -71.121653,
+                        "Name": "48 Brattle St",
+                        "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house10.jpg",
+                        "Price__c": 450000,
+                        "State__c": "MA",
+                        "Status__c": "Available",
+                        "Tags__c": "Colonial",
+                        "Thumbnail__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house10sq.jpg",
+                        "Title__c": "Heart of Harvard Square",
+                        "Zip__c": "02420"
+                    }
+                ]
+            }
+        }
+    ]
+}
