@@ -1,0 +1,92 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "LeadRef1"
+            },
+            "FirstName": "Sarah",
+            "LastName": "Loehr",
+            "Phone": "(555) 555-1212",
+            "Email": "info@salesforce.com",
+            "Company": "MedLife, Inc."
+        },
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "LeadRef2"
+            },
+            "FirstName": "John",
+            "LastName": "Gardner",
+            "Phone": "(555) 555-1212",
+            "Email": "info@salesforce.com",
+            "Company": "3C Systems"
+        },
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "LeadRef3"
+            },
+            "FirstName": "Andy",
+            "LastName": "Smith",
+            "Phone": "(555) 555-1212",
+            "Email": "info@salesforce.com",
+            "Company": "Universal Technologies"
+        },
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "LeadRef4"
+            },
+            "FirstName": "Jim",
+            "LastName": "Steele",
+            "Phone": "(555) 555-1212",
+            "Email": "info@salesforce.com",
+            "Company": "BigLife Inc."
+        },
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "LeadRef5"
+            },
+            "FirstName": "Jon",
+            "LastName": "Snow",
+            "Phone": "321-789-6543",
+            "Email": "jon@winterfeld.co",
+            "Company": "Dreamhouse"
+        },
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "LeadRef6"
+            },
+            "FirstName": "James",
+            "LastName": "Kirk",
+            "Phone": "392-849-9283",
+            "Email": "jamestkirk@starfleet.mil",
+            "Company": "Dreamhouse"
+        },
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "LeadRef7"
+            },
+            "FirstName": "Luke",
+            "LastName": "Skywalker",
+            "Phone": "998-786-1357",
+            "Email": "luke@tatooine.planet",
+            "Company": "Dreamhouse"
+        },
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "LeadRef8"
+            },
+            "FirstName": "Laura",
+            "LastName": "Croft",
+            "Phone": "646-267-9237",
+            "Email": "lc@adventures.us",
+            "Company": "Dreamhouse"
+        }
+    ]
+}
