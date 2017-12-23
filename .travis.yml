@@ -19,5 +19,5 @@ before_install:
 script:
 - sfdx force:org:create -v CI_HubOrg -s -f config/project-scratch-def.json -a CI_SO
 - sfdx force:source:push -u CI_SO
-- sfdx force:apex:test:run -u CI_SO -c -r human
+- sfdx force:apex:test:run -u CI_SO -c -r human --verbose
 - sfdx force:org:delete -u CI_SO -p
