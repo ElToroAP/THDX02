@@ -36,7 +36,7 @@ public class DreamhouseTests {
         System.assertEquals(1, dhp.getLeads().size());
         //List<Lead> leads = dhp.getLeads();
         
-        
+        System.debug(dhp.getIsClassic());
     }
 
 }
