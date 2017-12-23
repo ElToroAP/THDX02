@@ -1,8 +1,22 @@
 <apex:page controller="DreamhouseProspects" lightningStylesheets="true">
-    <apex:slds />
+    <apex:slds rendered="{! !isClassic}" />
+    <apex:outputPanel rendered="{! isClassic}">
+        <apex:sectionHeader title="Leads" subtitle="Home" />
+    </apex:outputPanel>
     <apex:pageBlock>
         <apex:form>
-            <apex:outputPanel>
+            <apex:outputPanel rendered="{! isClassic}">
+                <div style="text-align:center;">
+                    <apex:commandButton action="{!URLFOR($Action.Lead.New)}" value="New" />
+                </div>
+                <apex:outputLabel value="Sort: " for="sortList" />
+                <apex:selectList value="{! sortOrder}" size="1" id="sortList">
+                    <apex:selectOption itemvalue="LastName" />
+                    <apex:selectOption itemvalue="FirstName" />
+                </apex:selectList>
+                <apex:commandButton value="Sort Table" action="{!sortList}" reRender="leads_list" />
+            </apex:outputPanel>
+            <apex:outputPanel rendered="{! !isClassic}">
                 <div class="slds-page-header">
                     <div class="slds-grid">
                         <div class="slds-col slds-has-flexi-truncate">
