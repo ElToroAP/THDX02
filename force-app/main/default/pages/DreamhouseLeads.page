@@ -1,6 +1,6 @@
 <apex:page controller="DreamhouseProspects" lightningStylesheets="true">
+    <apex:sectionHeader title="Leads" subtitle="Home"/>
     <apex:pageBlock >
-        <apex:sectionHeader title="Leads" subtitle="Home"/>
         <apex:form >
             <div style="text-align:center;">
                 <apex:commandButton action="{!URLFOR($Action.Lead.New)}" value="New"/>
