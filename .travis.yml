@@ -18,7 +18,6 @@ before_install:
 - sfdx force:auth:jwt:grant --clientid $CONSUMERKEY --jwtkeyfile assets/server.key
   --username $USERNAME --setdefaultdevhubusername --setalias CI_HubOrg
 - chmod 777 testCodeCoverage.sh
-- chmod 777 jq-linux64
 script:
 - sfdx force:org:create --targetdevhubusername CI_HubOrg --definitionfile config/project-scratch-def.json
   --setalias CI_SO --setdefaultusername
