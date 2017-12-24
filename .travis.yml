@@ -15,9 +15,13 @@ before_install:
 - sfdx update
 - sfdx --version
 - sfdx plugins --core
-- sfdx force:auth:jwt:grant --clientid $CONSUMERKEY --jwtkeyfile assets/server.key --username $USERNAME --setdefaultdevhubusername -a CI_HubOrg
+- sfdx force:auth:jwt:grant --clientid $CONSUMERKEY --jwtkeyfile assets/server.key
+  --username $USERNAME --setdefaultdevhubusername --setalias CI_HubOrg
+- chmod 777 testCodeCoverage.sh
+- chmod 777 jq-linux64
 script:
-- sfdx force:org:create -v CI_HubOrg -s -f config/project-scratch-def.json -a CI_SO
+- sfdx force:org:create --targetdevhubusername CI_HubOrg --definitionfile config/project-scratch-def.json
+  --setalias CI_SO --setdefaultusername
 - sfdx force:source:push -u CI_SO
 - sfdx force:apex:test:run -u CI_SO -c -r human --verbose
 - sfdx force:org:delete -u CI_SO -p
