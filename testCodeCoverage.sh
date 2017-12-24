@@ -1,10 +1,8 @@
 #!/bin/bash
 
 echo "Start Code Coverage Calculations"
-varMinCC=99
-#varJQ="jq-osx-amd64"
-varJQ="jq-linux64"
-varCC=`sfdx force:data:soql:query -t -q "SELECT PercentCovered FROM ApexOrgWideCoverage" -r json | ./$varJQ '.result.records[0].PercentCovered'`
+varMinCC=75
+varCC=`sfdx force:data:soql:query -t -q "SELECT PercentCovered FROM ApexOrgWideCoverage" -r json | jq '.result.records[0].PercentCovered'`
 
 #Test results
 if [ "$varCC" -lt "$varMinCC" ] ; then
