@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Start Code Coverage Calculations"
+echo "Starting Code Coverage Calculations"
 varMinCC=75
 varCC=`sfdx force:data:soql:query -t -q "SELECT PercentCovered FROM ApexOrgWideCoverage" -r json | jq '.result.records[0].PercentCovered'`
 
