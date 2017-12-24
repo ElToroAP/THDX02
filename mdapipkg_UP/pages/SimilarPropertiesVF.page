@@ -1,0 +1,45 @@
+<apex:page standardController="Property__c">
+    <apex:outputPanel rendered="{! $User.UITheme=='Theme3'}">
+        <apex:slds />
+        <apex:includeLightning />
+        <style>
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            #lightningComponent {
+                width: 100%;
+            }
+        </style>
+
+        <table>
+            <tr>
+                <td style="vertical-align: top;" id="lcPrice" />
+                <td style="vertical-align: top;" id="lcBedrooms" />
+            </tr>
+        </table>
+
+        <script>
+            $Lightning.use("c:SimilarPropertiesVF", function () {
+                $Lightning.createComponent("c:SimilarProperties",
+                    {
+                        recordId: "{!Property__c.Id}",
+                        searchCriteria: "Price"
+                    },
+                    "lcPrice",
+                    function (cmp) { }
+                );
+                $Lightning.createComponent("c:SimilarProperties",
+                    {
+                        recordId: "{!Property__c.Id}",
+                        searchCriteria: "Bedrooms"
+                    },
+                    "lcBedrooms",
+                    function (cmp) { }
+                );
+            });
+        </script>
+    </apex:outputPanel>
+</apex:page>
