@@ -19,7 +19,7 @@
                 <a onclick="{!c.navToRecord}">
                     <h3 class="slds-text-heading_small slds-m-bottom_xx-small">{!v.targetFields.Name}</h3>
                 </a>
-                <!-- Edit button goes here -->
+                <lightning:buttonIcon iconName="utility:edit" class="slds-col_bump-left" variant="bare" alternativeText="Edit Record" onclick="{!c.editRecord}" />
             </div>
             <div aura:id="propertyDetails" class="slds-m-top_small">
                 <ul class="slds-grid slds-wrap">
