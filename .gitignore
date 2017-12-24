@@ -1,2 +1,3 @@
 .sfdx
 assets/server.key
+.DS_Store
