@@ -16,7 +16,7 @@
             <ul class="slds-list_vertical slds-has-dividers_top-space">
                 <aura:iteration items="{!v.similarProperties}" var="item" indexVar="i">
                     <li class="slds-list__item">                   
-                        {!item.Name}
+                        <c:SimilarProperty propertyId="{!item.Id}" remoteRecordId="{!v.remoteRecordId}" showDialog="{!v.showDialog}" />
                     </li>
                 </aura:iteration>
             </ul>
