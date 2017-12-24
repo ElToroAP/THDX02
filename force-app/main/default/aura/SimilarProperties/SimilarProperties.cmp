@@ -4,6 +4,7 @@
     <aura:attribute name="property" type="Property__c" />
     <aura:attribute name="remoteRecordId" type="Id" />
     <aura:attribute name="showDialog" type="String" default="false" />
+    <aura:handler event="c:recordUpdated" action="{!c.doInit}" />
     
     <force:recordData aura:id="propertyService"
                       recordId="{!v.recordId}"
@@ -21,6 +22,7 @@
                 </aura:iteration>
             </ul>
         </div>
+        <c:SimilarPropertyEdit showDialog="{!v.showDialog}" remoteRecordId="{!v.remoteRecordId}" />
     </lightning:card>
     
 </aura:component>	

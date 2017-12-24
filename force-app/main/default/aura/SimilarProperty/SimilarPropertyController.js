@@ -6,11 +6,9 @@
         });
         navEvt.fire();
     },
-    editRecord: function (component, event, helper) {
-        var editRecordEvent = $A.get("e.force:editRecord");
-        editRecordEvent.setParams({
-            "recordId": component.get("v.propertyId")
-        });
-        editRecordEvent.fire();
-    }
+    editRecord : function(component, event, helper) {
+        var recId = component.get("v.propertyId");
+        component.set("v.remoteRecordId", recId);
+        component.set("v.showDialog", "true");
+    }    
 })
