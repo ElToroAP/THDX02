@@ -1,4 +1,4 @@
-<apex:page standardController="Property__c" extensions="GetPropertiesApexController">
+<apex:page standardController="Property__c" extensions="GetPropertiesApexController" lightningStylesheets="true">
     <apex:pageBlock >
       <apex:pageBlockTable value="{! properties }" var="ct" id="leads_list">
             <apex:column value="{! ct.name}" />
