@@ -21,3 +21,4 @@ script:
 - sfdx force:source:push -u CI_SO
 - sfdx force:apex:test:run -u CI_SO -c -r human --verbose
 - sfdx force:org:delete -u CI_SO -p
+- ./testCodeCoverage.sh
