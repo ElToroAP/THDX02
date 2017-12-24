@@ -120,9 +120,6 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentName>SimilarProperties</componentName>
-        </componentInstances>
-        <componentInstances>
             <componentInstanceProperties>
                 <name>height</name>
                 <value>200</value>
